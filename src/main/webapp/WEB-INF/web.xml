@@ -8,7 +8,19 @@
         <param-name>contextConfigLocation</param-name>
         <param-value>applicationWebContext.xml</param-value>
     </context-param>
+
     <listener>
         <listener-class>cn.hdlmx.spring.struts2.listener.SpringServletContextListener</listener-class>
     </listener>
+    <servlet>
+        <servlet-name>HelloServlet</servlet-name>
+        <servlet-class>cn.hdlmx.spring.struts2.servlet.HelloServlet</servlet-class>
+
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HelloServlet</servlet-name>
+        <url-pattern>/HelloServlet</url-pattern>
+    </servlet-mapping>
 </web-app>
+
+

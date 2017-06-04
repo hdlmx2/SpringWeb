@@ -95,7 +95,7 @@
             <artifactId>c3p0</artifactId>
             <version>0.9.5.2</version>
         </dependency>
-        &lt;!&ndash;struts2配置&ndash;&gt;
+
         <dependency>
             <groupId>org.apache.struts</groupId>
             <artifactId>struts2-core</artifactId>
